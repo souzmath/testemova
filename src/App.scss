@@ -1,0 +1,44 @@
+.header{
+  padding: 19px 46px;
+  display:flex;
+  align-items: center; 
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+  button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px 0px 16px ;
+    color: #6D2080;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #6D2080; 
+    cursor: pointer;
+    width: 134px;
+    height: 36px;
+    font-size: 18px;
+
+    object{
+      width: 19px;
+      height: 12px;
+    }
+  }
+
+  img {
+    width: 92px;
+    object-fit: cover;
+  }
+  
+}
+
+.countrygrid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 20px; 
+  align-items: center;
+  row-gap: 20px;
+
+}
+
