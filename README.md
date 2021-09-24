@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+# Teste para Estágio na Mova
+ 
+##  Considerações  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Foi proposto que fizesse um seletor de países, o qual fosse composto por duas paginas propriamente ditas, uma pagina principal(Home) e uma pagina secundaria com as expecificações dos países(Details). Acoplado com esse sistema, temos uma ferramenta de busca, um botão back e um cabeçario.
 
-## Available Scripts
+Como não tinha muita experiencia com as ferramentas, foi bem dificil conseguir ter essa conclusao do projeto. O que geralemente fazia era codificar um programa em hardcode,ou seja, HTML, CSS, JS e configurar tudo na mão. Para essa aplicação, eu iria demorar o triplo do prazo pra conseguir fazer todas as funcionalidades que foram abordadas nesse projeto. Portanto tomei frente para desenvolver meu react um pouco mais. Dessa forma, não esperava o poder dessa ferramenta mas aprender os processos foi bem trabalhoso e demorado, levando a maior parte do tempo para achar bibliotecas e funções do que desenvolver o codigo propriamente dito.
 
-In the project directory, you can run:
+O ponto baixo foi que a API estava com alguns problemas. O site demorava pra carregar a documentação, tinha um limite de refresh e os codigos estavam limitados, não sendo possivel ter acesso as bandeiras por exemplo. Dessa forma, tive que criar varias contas para que pudesse testar o codigo com as chaves dadas por cada conta e também pegar as bandeiras de outra fonte. isso teve um grande impacto pois ao invés de trabalhar com os proprios objetos da API tive que trocar para fazer pelo browser mesmo, coletando apenas o indice que era fornecido e exibindo a bandeira de uma API diferente. Agora no final do processo a chave API expirou, portanto, para fazer a verificação do codigo que foi feito, é necessario linkar com uma chave propria em um arquivo .env como mostrado no .env.example.
 
-### `npm start`
+Conclui-se que nesse proprio projeto consegui evoluir um pouco do meu react, apesar de n ser meu forte, e também praticar bastante já que eu estava "enferrujado". 
+De qualquer forma, muito obrigado pela oportunidade e atenção.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
