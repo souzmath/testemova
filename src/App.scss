@@ -1,10 +1,13 @@
+.App{
+  font-size-adjust: none;
+}
+
 .header{
   padding: 19px 46px;
   display:flex;
   align-items: center; 
   justify-content: space-between;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 
   button{
     display: flex;
@@ -30,15 +33,74 @@
     width: 92px;
     object-fit: cover;
   }
-  
 }
 
 .countrygrid{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  margin: 20px; 
+  margin-left: 176px; 
+  margin-top: 48px;
   align-items: center;
-  row-gap: 20px;
+  row-gap: 50px;
+}
+
+.butFilter{
+  color: #fff;
+  background-color: #6D2080;
+  outline: none;
+  border: 1px solid #fff; 
+  cursor: pointer;
+  width: 156px;
+  height: 36px;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-top: 123px;
+  margin-left: 440px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.fetch{
+  width: 316px;
+  height: 30px;
+  outline-color: #ffffff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.selector{
+  color: #fff;
+  margin-left: 176px;
+  border-radius: 10px;
+  width: 70px;
+  height: 36px;
+  background-color: #6D2080;
+  outline-color:  10px #6D2080
+}
+
+.singlegrid{
+  margin-right: 190px;
+  padding: 20px;
+  background-color: rgba(224, 224, 224, 0.753);
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.imgdetails{
+  margin-left: 40%;
+  margin-top: 80px;
+  margin-bottom: 25px;
+  display: flex;
+  padding: 20px;
+  background-color: rgba(224, 224, 224, 0.753);
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
+.detailtext{
+  margin-left: 40%;
+  margin-right: 43%;
+  background-color: rgba(224, 224, 224, 0.753);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
